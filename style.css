@@ -1,0 +1,22 @@
+/* CSS */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    color: #575556;
+    background: linear-gradient(-140deg, #ff65c5, #fa909d, #fccebe);
+    font-family: "Poppins";
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    width: 75vw;
+    max-width: 650px;
+    padding: 50px 30px 50px 20px;
+    background: #ffffff;
+    border-radius: 24px;
+  }
