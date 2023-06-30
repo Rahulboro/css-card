@@ -71,7 +71,7 @@ body {
     .main-card img {
       margin: -100px 30px 0;
       width: 100%;
-      max-width: 1000px;
+      max-width: 100%;
     }
   
     .main-card .stats var {
@@ -85,9 +85,9 @@ body {
   /* GSS */
 
 .main-card button {
-    border: 1px solid #a7a7a7;
+    border: 1px solid #979292;
     background: transparent;
-    color: #a7a7a7;
+    color: #FD297A;
     font-family: inherit;
     padding: 16px 20px;
     font-size: 18px;
@@ -96,7 +96,7 @@ body {
   }
   
   .main-card button.primary {
-    background: #fe5c89;
+    background: #FD297A;
     color: #f9f9f9;
     border: 0;
   }
