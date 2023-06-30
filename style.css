@@ -1,4 +1,4 @@
-.card img {
+.main-card img {
     max-width: 280px;
     width: 32vw;
     height: 270px;
@@ -16,17 +16,17 @@
     opacity: 0.5;
   }
   
-  .card h2 {
+  .main-card h2 {
     font-size: 28px;
     margin: 0;
   }
   
-  .card h3 {
+  .main-card h3 {
     font-size: 16px;
     margin: 0 0 20px;
   }
   
-  .card .buttons {
+  .main-card .buttons {
     display: inline-flex;
     gap: 10px;
   }
@@ -40,11 +40,11 @@ body {
     margin: 0;
     height: 100vh;
     color: #575556;
-    background: linear-gradient(-140deg, #ff65c5, #fa909d, #fccebe);
+    background: linear-gradient(-140deg, #DB0B5F, #6F00ED, #fccebe);
     font-family: "Poppins";
   }
   
-  .card {
+  .main-card {
     display: flex;
     align-items: center;
     width: 75vw;
@@ -55,7 +55,7 @@ body {
   }
 
   @media (max-width: 720px) {
-    .card {
+    .main-card {
       margin: 0 40px;
       padding-left: 50px;
       padding-right: 50px;
@@ -64,27 +64,27 @@ body {
       flex-direction: column;
     }
   
-    .card h2 {
+    .main-card h2 {
       font-size: 30px;
     }
   
-    .card img {
+    .main-card img {
       margin: -100px 30px 0;
       width: 100%;
       max-width: 1000px;
     }
   
-    .card .stats var {
+    .main-card .stats var {
       min-width: 90px;
     }
   
-    .card button {
+    .main-card button {
       min-width: 160px;
     }
   }
   /* GSS */
 
-.card button {
+.main-card button {
     border: 1px solid #a7a7a7;
     background: transparent;
     color: #a7a7a7;
@@ -95,13 +95,13 @@ body {
     min-width: 120px;
   }
   
-  .card button.primary {
+  .main-card button.primary {
     background: #fe5c89;
     color: #f9f9f9;
     border: 0;
   }
   
-  .card .stats {
+  .main-card .stats {
     display: flex;
     gap: 24px;
     list-style: none;
@@ -109,7 +109,7 @@ body {
     padding: 0;
   }
   
-  .card .stats var {
+  .main-card .stats var {
     display: block;
     font-style: normal;
     font-size: 26px;
